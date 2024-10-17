@@ -9,7 +9,7 @@ if response.status_code == 200:
 else:
     print('Failed to retrieve the data.')
 
-compound = input("Enter name of your compound in abriviations such as Cl: ").strip()
+compound = input("Enter name of your compound in abbreviation such as Cl: ").strip()
 mass = float(input("Enter mass of compound (g): "))
 liters_of_solution = float(input('Enter volume in liters in (L), not (mL): '))
 
